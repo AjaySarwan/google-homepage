@@ -1,0 +1,132 @@
+body{
+	background-color: white;
+	margin:0;
+	padding: 0;
+	font-family: roboto, sans-serif;
+	text-align: center;
+}
+ol {
+	list-style-type: none;
+}
+header {
+	width: 100%;
+}
+#navbar{
+	float: right;
+}
+#navbar li {
+	display: inline-block;
+	padding: 8px;
+}
+.navlink{
+	position: relative;
+	color: black;
+	font-size: 12.5px;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+li.navlink a:hover {
+	text-decoration: underline;
+}
+
+#signin{
+	position: relative;
+	align-content: right;
+	margin-right: 20px;
+    padding: 7px 14px;
+    background-color: #4887ef;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+#signin:hover {
+	box-shadow: 1px 1px 5px #999;
+}
+.logo{
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    clear: both;
+ }
+.form{
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+	width: 600px;
+	height: 40px;
+	border: none;
+	box-shadow: 1px 1px 2px #999;
+}
+.form:hover {
+	box-shadow: 1px 1px 5px #999;
+}	
+.centerbutton{
+	display: inline-block;
+	margin-top: 20px;
+  	margin-bottom: auto;
+  	border: none;
+  	padding: 10px 20px 10px;
+  	font-size: 13px;
+  	font-weight: bold;
+  	color: grey;
+  	background-color: #F2F3F4;
+}
+.lang{
+	display: inline-block;
+	margin-top: 20px;
+	color: darkblue;
+	font-size: 14px;
+}
+
+#opt{
+	font-size: 12.5px;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+  	bottom: 0px;
+  	background: #f2f3f4;
+}
+#footer1 {
+	border-top: solid 1px #D3D3D3;
+	padding-bottom: auto;
+	font-size: 14px;
+}
+#footer2 {
+	font-size: 14px;
+	border-top: solid 1px #D3D3D3;
+	padding-right: 25px;
+	}
+.footer1l {
+	text-align: left;
+	color: grey;
+}
+.footer2l {
+	float: left;
+	display: inline-block;
+	color: grey;
+	padding-right: 20px;
+
+}
+.footer2r {
+	float: right;
+	color: grey;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	
+}
+li.footer2l a:hover{
+	text-decoration: underline;
+}	
+li.footer2r a:hover{
+	text-decoration: underline;
+}	
